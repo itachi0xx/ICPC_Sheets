@@ -1,2 +1,2 @@
 x, y = map(int, input("").split())
-print(f'{(x % 100) + (y % 100)}')
+print(f'{(x % 10) + (y % 10)}')
